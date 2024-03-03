@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 export default function Landing() {
   return (
-    <div className="bg-[#6a19a8] w-screen h-screen flex flex-col justify-between text-white font-bold text-center">
+    <div className="bg-yellow-200 w-screen h-screen flex flex-col justify-between text-[#6a19a8] font-bold text-center">
       <Navbar />
       <div className="flex flex-col gap-5 items-center ">
         <h1 className="">Landing</h1>
@@ -17,6 +17,7 @@ export default function Landing() {
           aperiam quo veniam earum quae ullam accusantium.
         </p>
       </div>
+      
       <Footer />
     </div>
   );

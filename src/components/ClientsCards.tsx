@@ -4,8 +4,7 @@ type ClientsCardsProps = {
   text: String;
 };
 
-export default function ClientsCards(props: ClientsCardsProps) {
-  const { clientName, urlPhoto, text } = props;
+export default function ClientsCards({ clientName, urlPhoto, text }: ClientsCardsProps) {
   return (
     <div className="shadow-md shadow-yellow-500 rounded-lg bg-yellow-200 m-8 px-3 py-2">
       <h1 className="pt-2">{clientName}</h1>

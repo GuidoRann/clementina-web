@@ -4,22 +4,22 @@ import Navbar from "./Navbar";
 
 export default function Landing() {
   return (
-    <main className="bg-yellow-200 w-screen h-screen flex flex-col justify-between text-[#6a19a8] font-bold text-center">
-      <section className="flex flex-col gap-5 items-center">
+    <main className="">
+      <section className="">
         <Navbar />
-        <h1 className="text-9xl pb-36">Bienvenidos</h1>
+        <h1 className="">Bienvenidos</h1>
       </section>
-      <section className="h-[2400px] text-slate-50 bg-[#6a19a8] py-2 flex flex-row justify-center items-center">
-        <div className="h-full w-1/3 flex justify-center items-center py-8">
+      <section className="">
+        <div className="">
           <img
-            className="h-full"
+            className=""
             src="../../public/Imagenes/Niño.png"
             alt="Imagen niño cumpleaños"
           />
         </div>
-        <div className="w-2/3  flex flex-col items-center justify-center">
-          <h3 className="text-4xl pb-5">Sobre nosotros</h3>
-          <p className="w-3/5">
+        <div className="">
+          <h3 className="">Sobre nosotros</h3>
+          <p className="">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
             aut fugit nesciunt ut consectetur quo quae reprehenderit quos maxime
             ea quisquam quod velit, eius reiciendis corporis, ex molestiae,
@@ -28,19 +28,19 @@ export default function Landing() {
           </p>
         </div>
       </section>
-      <section className="flex justify-center items-center bg-slate-50">
-        <div className="w-full flex flex-col items-center pt-8 gap-8">
-          <h3 className="text-4xl">Nuestros clientes</h3>
-          <p className="w-2/5">
+      <section className="">
+        <div className="">
+          <h3 className="">Nuestros clientes</h3>
+          <p className="">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
             corrupti ipsa autem. Sapiente dignissimos, perspiciatis totam ab
             autem et quos error nesciunt iure similique vel. Tempora distinctio
             reiciendis dolor. Error.lorem
           </p>
-          <div className="flex">
+          <div className="">
             <ClientsCards
               clientName="Juan"
-              urlPhoto="images/pepe.jpg"
+              urlPhoto="https://t2.uc.ltmcdn.com/es/posts/2/7/0/que_hacer_el_dia_de_tu_cumpleanos_51072_600_square.jpg"
               text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
             corrupti ipsa autem. Sapiente dignissimos, perspiciatis totam ab
             autem et quos error nesciunt iure similique vel. Tempora distinctio
@@ -48,7 +48,7 @@ export default function Landing() {
             />
             <ClientsCards
               clientName="Pepito"
-              urlPhoto="images/pepito.jpg"
+              urlPhoto="https://t2.uc.ltmcdn.com/es/posts/2/7/0/que_hacer_el_dia_de_tu_cumpleanos_51072_600_square.jpg"
               text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
             corrupti ipsa autem. Sapiente dignissimos, perspiciatis totam ab
             autem et quos error nesciunt iure similique vel. Tempora distinctio
@@ -56,7 +56,7 @@ export default function Landing() {
             />
             <ClientsCards
               clientName="Albertito"
-              urlPhoto="images/albertito.jpg"
+              urlPhoto="https://t2.uc.ltmcdn.com/es/posts/2/7/0/que_hacer_el_dia_de_tu_cumpleanos_51072_600_square.jpg"
               text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
             corrupti ipsa autem. Sapiente dignissimos, perspiciatis totam ab
             autem et quos error nesciunt iure similique vel. Tempora distinctio

@@ -7,7 +7,7 @@ type ClientsCardsProps = {
 export default function ClientsCards(props: ClientsCardsProps) {
   const { clientName, urlPhoto, text } = props;
   return (
-    <div className="shadow-md shadow-yellow-700 w-[300px] rounded-lg bg-yellow-200 m-8 ">
+    <div className="shadow-md shadow-yellow-500 rounded-lg bg-yellow-200 m-8 px-3 py-2">
       <h1 className="pt-2">{clientName}</h1>
       <img
         src={`${urlPhoto}`}

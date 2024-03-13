@@ -5,11 +5,11 @@ import Navbar from "./Navbar";
 export default function Landing() {
   return (
     <main className="">
-      <section className="">
+      <section className="bg-yellow-200">
         <Navbar />
-        <h1 className="">Bienvenidos</h1>
+        <h1 className="text-center text-purple-500 font-bold">Bienvenidos</h1>
       </section>
-      <section className="">
+      <section className="text-center">
         <div className="">
           <img
             className=""
@@ -17,8 +17,8 @@ export default function Landing() {
             alt="Imagen niño cumpleaños"
           />
         </div>
-        <div className="">
-          <h3 className="">Sobre nosotros</h3>
+        <div className="py-5">
+          <h3 className="pb-3">Sobre nosotros</h3>
           <p className="">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
             aut fugit nesciunt ut consectetur quo quae reprehenderit quos maxime
@@ -28,9 +28,9 @@ export default function Landing() {
           </p>
         </div>
       </section>
-      <section className="">
+      <section className="bg-purple-300 text-center py-5 px-4">
         <div className="">
-          <h3 className="">Nuestros clientes</h3>
+          <h3 className="py-3">Nuestros clientes</h3>
           <p className="">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
             corrupti ipsa autem. Sapiente dignissimos, perspiciatis totam ab

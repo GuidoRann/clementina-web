@@ -1,16 +1,16 @@
 export default function Navbar() {
   return (
-    <div className="bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUy0lBtfqXg4zP0pv-8ymKv8lqLbENkDOn3rXEgr9ojw&s')] bg-cover flex flex-col justify-center items-center min-h-64 px-4">
-      <h1 className="p-8 text-2xl font-bold text-black">Clementina</h1>
+    <div className="bg-yellow-200 flex flex-col justify-center items-center min-h-64 px-4 text-purple-600">
+      <h1 className="p-8 text-2xl font-bold">Clementina</h1>
       <div className="">
-        <div className="flex gap-7 text-black font-medium">
-          <p className="cursor-pointer px-2 py-[2px] rounded-full hover:bg-violet-500 hover:text-slate-100 transition-all duration-300">
+        <div className="flex gap-4 font-medium">
+          <p className="cursor-pointer px-3 py-[2px] hover:bg-violet-500 hover:text-slate-100 transition-all duration-300 rounded-full">
             Conocenos
           </p>
-          <p className="cursor-pointer px-2 py-[2px] rounded-full hover:bg-violet-500 hover:text-slate-100 transition-all duration-300">
+          <p className="cursor-pointer px-3 py-[2px] hover:bg-violet-500 hover:text-slate-100 transition-all duration-300 rounded-full">
             Clientes
           </p>
-          <p className="cursor-pointer px-2 py-[2px] rounded-full hover:bg-violet-500 hover:text-slate-100 transition-all duration-300">
+          <p className="cursor-pointer px-3 py-[2px] hover:bg-violet-500 hover:text-slate-100 transition-all duration-300 rounded-full">
             Contactanos
           </p>
         </div>

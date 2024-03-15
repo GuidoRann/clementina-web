@@ -1,15 +1,15 @@
+import { CarouselCustomNavigation } from "./Carousel";
 import ClientsCards from "./ClientsCards";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 export default function Landing() {
   return (
-    <main className="">
-      <section className="bg-yellow-200">
+    <main className="font-poppins">
+      <section className="hidden sm:block">
         <Navbar />
-        <h1 className="text-center text-purple-500 font-bold">Bienvenidos</h1>
       </section>
-      <section className="text-center">
+      <section className="flex flex-col items-center px-6">
         <div className="">
           <img
             className=""
@@ -17,9 +17,9 @@ export default function Landing() {
             alt="Imagen niño cumpleaños"
           />
         </div>
-        <div className="py-5">
-          <h3 className="pb-3">Sobre nosotros</h3>
-          <p className="">
+        <div className="py-5 flex flex-col items-center">
+          <h3 className="py-3">Sobre nosotros</h3>
+          <p className="px-3">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
             aut fugit nesciunt ut consectetur quo quae reprehenderit quos maxime
             ea quisquam quod velit, eius reiciendis corporis, ex molestiae,
@@ -28,8 +28,20 @@ export default function Landing() {
           </p>
         </div>
       </section>
-      <section className="bg-purple-300 text-center py-5 px-4">
-        <div className="">
+      <section className="h-[300px] p-6">
+        <CarouselCustomNavigation />
+      </section>
+      <section className="bg-yellow-200 py-8 flex flex-col items-center px-6">
+        <h3>Nuestros servicios</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugiat
+          blanditiis nam neque facilis distinctio ullam totam modi,
+          reprehenderit sequi tempora porro ut natus, accusantium ab quis dicta
+          officia consequatur?{" "}
+        </p>
+      </section>
+      <section className="bg-purple-300 py-5 px-6">
+        <div className="flex flex-col items-center">
           <h3 className="py-3">Nuestros clientes</h3>
           <p className="">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit

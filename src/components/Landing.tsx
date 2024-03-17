@@ -6,10 +6,10 @@ import Navbar from "./Navbar";
 export default function Landing() {
   return (
     <main className="font-poppins">
-      <section className="hidden sm:block">
+      <section className="">
         <Navbar />
       </section>
-      <section className="flex flex-col items-center px-6">
+      <section className="flex flex-col items-center px-6 bg-yellow-200">
         <div className="">
           <img
             className=""
@@ -17,7 +17,7 @@ export default function Landing() {
             alt="Imagen niño cumpleaños"
           />
         </div>
-        <div className="py-5 flex flex-col items-center">
+        <div className="py-5 flex flex-col items-center ">
           <h3 className="py-3">Sobre nosotros</h3>
           <p className="px-3">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
@@ -28,7 +28,10 @@ export default function Landing() {
           </p>
         </div>
       </section>
-      <section className="h-[300px] p-6">
+      <section className="bg-purple-300 h-[300px] p-3 flex flex-col justify-center items-center">
+        <h3 className="p-2 text-xl font-bold text-white">
+          Algunos de nuestros trabajos
+        </h3>
         <CarouselCustomNavigation />
       </section>
       <section className="bg-yellow-200 py-8 flex flex-col items-center px-6">

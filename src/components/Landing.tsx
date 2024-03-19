@@ -6,14 +6,21 @@ import Navbar from "./Navbar";
 export default function Landing() {
   return (
     <main className="font-poppins">
-      <section className="">
+      <section className="bg-[url(/Imagenes/fondo.jpg)] h-[800px] bg-cover">
         <Navbar />
+        <h1>Hola mundo!</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+          eligendi aspernatur eum doloribus in rerum pariatur sunt, deserunt
+          omnis nulla ipsum magnam facilis debitis? Id dicta ipsa aspernatur.
+          Magni, odit?
+        </p>
       </section>
-      <section className="flex flex-col items-center px-6 bg-yellow-200">
+      <section className="flex flex-col items-center px-6 bg-yellow-300">
         <div className="">
           <img
             className=""
-            src="../../public/Imagenes/Niño.png"
+            src="/Imagenes/Niño.png"
             alt="Imagen niño cumpleaños"
           />
         </div>
@@ -33,15 +40,6 @@ export default function Landing() {
           Algunos de nuestros trabajos
         </h3>
         <CarouselCustomNavigation />
-      </section>
-      <section className="bg-yellow-200 py-8 flex flex-col items-center px-6">
-        <h3>Nuestros servicios</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugiat
-          blanditiis nam neque facilis distinctio ullam totam modi,
-          reprehenderit sequi tempora porro ut natus, accusantium ab quis dicta
-          officia consequatur?{" "}
-        </p>
       </section>
       <section className="bg-purple-300 py-5 px-6">
         <div className="flex flex-col items-center">

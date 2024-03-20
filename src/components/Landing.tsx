@@ -54,7 +54,7 @@ export default function Landing() {
             autem et quos error nesciunt iure similique vel. Tempora distinctio
             reiciendis dolor. Error.lorem
           </p>
-          <div className="">
+          <div className="lg:flex lg:gap-4">
             <ServiceCards
               serviceName="Juan"
               urlPhoto="https://t2.uc.ltmcdn.com/es/posts/2/7/0/que_hacer_el_dia_de_tu_cumpleanos_51072_600_square.jpg"

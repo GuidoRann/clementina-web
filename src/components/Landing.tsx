@@ -1,22 +1,26 @@
 import { CarouselCustomNavigation } from "./Carousel";
-import ClientsCards from "./ClientsCards";
+import ServiceCards from "./ServiceCards";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 export default function Landing() {
   return (
     <main className="font-poppins">
-      <section className="bg-[url(/Imagenes/fondo.jpg)] h-[800px] bg-cover">
-        <Navbar />
-        <h1>Hola mundo!</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-          eligendi aspernatur eum doloribus in rerum pariatur sunt, deserunt
-          omnis nulla ipsum magnam facilis debitis? Id dicta ipsa aspernatur.
-          Magni, odit?
-        </p>
+      <section className="bg-[#F6CFFA]">
+        <div className="p-2">
+          <Navbar />
+        </div>
+        <div className="flex flex-col justify-center items-center p-4">
+          <h1 className="text-lg py-2 font-bold">Hola mundo!</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            eligendi aspernatur eum doloribus in rerum pariatur sunt, deserunt
+            omnis nulla ipsum magnam facilis debitis? Id dicta ipsa aspernatur.
+            Magni, odit?
+          </p>
+        </div>
       </section>
-      <section className="flex flex-col items-center px-6 bg-yellow-300">
+      <section className="flex flex-col items-center bg-[#C5ECF5]">
         <div className="">
           <img
             className=""
@@ -24,9 +28,9 @@ export default function Landing() {
             alt="Imagen niño cumpleaños"
           />
         </div>
-        <div className="py-5 flex flex-col items-center ">
-          <h3 className="py-3">Sobre nosotros</h3>
-          <p className="px-3">
+        <div className="flex flex-col justify-center items-center p-4">
+          <h3 className="text-lg py-2 font-bold">Sobre nosotros</h3>
+          <p className="">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
             aut fugit nesciunt ut consectetur quo quae reprehenderit quos maxime
             ea quisquam quod velit, eius reiciendis corporis, ex molestiae,
@@ -41,9 +45,9 @@ export default function Landing() {
         </h3>
         <CarouselCustomNavigation />
       </section>
-      <section className="bg-purple-300 py-5 px-6">
+      <section className="bg-purple-300 p-4">
         <div className="flex flex-col items-center">
-          <h3 className="py-3">Nuestros clientes</h3>
+          <h3 className="text-lg py-2 font-bold">Nuestros servicios</h3>
           <p className="">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
             corrupti ipsa autem. Sapiente dignissimos, perspiciatis totam ab
@@ -51,29 +55,20 @@ export default function Landing() {
             reiciendis dolor. Error.lorem
           </p>
           <div className="">
-            <ClientsCards
-              clientName="Juan"
+            <ServiceCards
+              serviceName="Juan"
               urlPhoto="https://t2.uc.ltmcdn.com/es/posts/2/7/0/que_hacer_el_dia_de_tu_cumpleanos_51072_600_square.jpg"
-              text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
-            corrupti ipsa autem. Sapiente dignissimos, perspiciatis totam ab
-            autem et quos error nesciunt iure similique vel. Tempora distinctio
-            reiciendis dolor. Error.lorem"
+              text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit corrupti ipsa autem. Sapiente dignissimos"
             />
-            <ClientsCards
-              clientName="Pepito"
+            <ServiceCards
+              serviceName="Pepito"
               urlPhoto="https://t2.uc.ltmcdn.com/es/posts/2/7/0/que_hacer_el_dia_de_tu_cumpleanos_51072_600_square.jpg"
-              text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
-            corrupti ipsa autem. Sapiente dignissimos, perspiciatis totam ab
-            autem et quos error nesciunt iure similique vel. Tempora distinctio
-            reiciendis dolor. Error.lorem"
+              text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit corrupti ipsa autem. Sapiente dignissimos"
             />
-            <ClientsCards
-              clientName="Albertito"
+            <ServiceCards
+              serviceName="Albertito"
               urlPhoto="https://t2.uc.ltmcdn.com/es/posts/2/7/0/que_hacer_el_dia_de_tu_cumpleanos_51072_600_square.jpg"
-              text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
-            corrupti ipsa autem. Sapiente dignissimos, perspiciatis totam ab
-            autem et quos error nesciunt iure similique vel. Tempora distinctio
-            reiciendis dolor. Error.lorem"
+              text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit corrupti ipsa autem. Sapiente dignissimos"
             />
           </div>
         </div>

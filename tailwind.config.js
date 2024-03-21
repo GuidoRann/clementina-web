@@ -7,6 +7,8 @@ module.exports = withMT({
     extend: {
       fontFamily: {
         poppins: ["Poppins"],
+        dafora: ["Dafora"],
+        imperial: ["Imperial Script"],
       },
     },
   },

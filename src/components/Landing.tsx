@@ -6,28 +6,19 @@ import Navbar from "./Navbar";
 export default function Landing() {
   return (
     <main className="font-poppins">
-      <section className="bg-[#F6CFFA]">
+      <section className="bg-[url('/imagenes/servicios/foto2.jpg')] bg-center bg-cover h-[350px] flex flex-col">
         <div className="p-2">
           <Navbar />
         </div>
-        <div className="flex flex-col justify-center items-center p-4">
-          <h1 className="text-lg py-2 font-bold">Hola mundo!</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-            eligendi aspernatur eum doloribus in rerum pariatur sunt, deserunt
-            omnis nulla ipsum magnam facilis debitis? Id dicta ipsa aspernatur.
-            Magni, odit?
+        <div className="flex flex-col w-2/3 p-4 pt-14 text-white">
+          <p className="text-[32px] font-semibold leading-10 pt-[1px]">
+            Entregamos felicidad y creamos
           </p>
+          <p className="font-imperial text-7xl leading-10 text-yellow-100">recuerdos</p>
         </div>
       </section>
       <section className="flex flex-col items-center bg-[#C5ECF5]">
-        <div className="">
-          <img
-            className=""
-            src="/Imagenes/Niño.png"
-            alt="Imagen niño cumpleaños"
-          />
-        </div>
+        <div className=""></div>
         <div className="flex flex-col justify-center items-center p-4">
           <h3 className="text-lg py-2 font-bold">Sobre nosotros</h3>
           <p className="">
@@ -45,7 +36,7 @@ export default function Landing() {
         </h3>
         <CarouselCustomNavigation />
       </section>
-      <section className="bg-purple-300 p-4">
+      <section className="bg-[#f1f5f9] p-4">
         <div className="flex flex-col items-center">
           <h3 className="text-lg py-2 font-bold">Nuestros servicios</h3>
           <p className="">

@@ -1,7 +1,21 @@
+import { Divide as Hamburger } from "hamburger-react";
+import { useState } from "react";
+
 export default function Navbar() {
+  const [isOpen, setOpen] = useState<boolean>(false);
   return (
-    <div className="bg-white flex flex-row justify-center items-center text-gray-800 rounded-full">
-      <h1 className="text-2xl font-dafora">Clementina</h1>
+    <div className="flex flex-row text-white rounded-full">
+      <Hamburger
+        toggled={isOpen}
+        toggle={setOpen}
+        onToggle={(toggled) => {
+          if (toggled) {
+            // open a menu
+          } else {
+            // close a menu
+          }
+        }}
+      />
     </div>
   );
 }

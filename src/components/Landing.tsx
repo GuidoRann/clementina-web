@@ -10,11 +10,13 @@ export default function Landing() {
         <div className="p-2">
           <Navbar />
         </div>
-        <div className="flex flex-col w-2/3 p-4 pt-14 text-white">
-          <p className="text-[32px] font-semibold leading-10 pt-[1px]">
+        <div className="flex flex-col w-2/3 p-4 pt-8 text-white">
+          <p className="text-[35px] font-semibold leading-10 pt-[1px]">
             Entregamos felicidad y creamos
+            <p className="font-imperial text-[70px] leading-8 text-yellow-100">
+              recuerdos
+            </p>
           </p>
-          <p className="font-imperial text-7xl leading-10 text-yellow-100">recuerdos</p>
         </div>
       </section>
       <section className="flex flex-col items-center bg-[#C5ECF5]">

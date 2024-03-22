@@ -5,12 +5,10 @@ import Navbar from "./Navbar";
 
 export default function Landing() {
   return (
-    <main className="font-poppins">
+    <main className="font-poppins bg-white">
       <section className="bg-[url('/imagenes/servicios/foto2.jpg')] bg-center bg-cover h-[350px] flex flex-col">
-        <div className="w-full">
-          <Navbar />
-        </div>
-        <div className="flex flex-col w-2/3 p-4 pt-20 text-white">
+        <Navbar />
+        <div className="flex flex-col w-2/3 p-4 justify-center text-white h-full">
           <p className="text-[35px] font-semibold leading-10 pt-[1px]">
             Entregamos felicidad y creamos
             <p className="font-imperial text-[70px] leading-8 text-yellow-100">
@@ -19,10 +17,9 @@ export default function Landing() {
           </p>
         </div>
       </section>
-      <section className="flex flex-col items-center bg-[#C5ECF5]">
-        <div className=""></div>
-        <div className="flex flex-col justify-center items-center p-4">
-          <h3 className="text-lg py-2 font-bold">Sobre nosotros</h3>
+      <section className="flex flex-col items-center " id="nosotros">
+        <div className="flex flex-col justify-center items-center px-6 py-12">
+          <h3 className="text-lg pb-5 font-bold">Sobre nosotros</h3>
           <p className="">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
             aut fugit nesciunt ut consectetur quo quae reprehenderit quos maxime
@@ -32,13 +29,15 @@ export default function Landing() {
           </p>
         </div>
       </section>
-      <section className="bg-purple-300 h-[300px] p-3 flex flex-col justify-center items-center">
-        <h3 className="p-2 text-xl font-bold text-white">
+      <section className="h-80 p-3 flex flex-col items-center">
+        <h3 className="pb-6 text-xl font-bold text-gray-800">
           Algunos de nuestros trabajos
         </h3>
-        <CarouselCustomNavigation />
+        <div>
+          <CarouselCustomNavigation />
+        </div>
       </section>
-      <section className="bg-[#f1f5f9] p-4">
+      <section className="p-4 py-10" id="servicios">
         <div className="flex flex-col items-center">
           <h3 className="text-lg py-2 font-bold">Nuestros servicios</h3>
           <p className="">
@@ -50,17 +49,14 @@ export default function Landing() {
           <div className="lg:flex lg:gap-4">
             <ServiceCards
               serviceName="Juan"
-              urlPhoto="https://t2.uc.ltmcdn.com/es/posts/2/7/0/que_hacer_el_dia_de_tu_cumpleanos_51072_600_square.jpg"
               text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit corrupti ipsa autem. Sapiente dignissimos"
             />
             <ServiceCards
               serviceName="Pepito"
-              urlPhoto="https://t2.uc.ltmcdn.com/es/posts/2/7/0/que_hacer_el_dia_de_tu_cumpleanos_51072_600_square.jpg"
               text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit corrupti ipsa autem. Sapiente dignissimos"
             />
             <ServiceCards
               serviceName="Albertito"
-              urlPhoto="https://t2.uc.ltmcdn.com/es/posts/2/7/0/que_hacer_el_dia_de_tu_cumpleanos_51072_600_square.jpg"
               text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit corrupti ipsa autem. Sapiente dignissimos"
             />
           </div>

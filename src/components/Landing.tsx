@@ -7,10 +7,10 @@ export default function Landing() {
   return (
     <main className="font-poppins">
       <section className="bg-[url('/imagenes/servicios/foto2.jpg')] bg-center bg-cover h-[350px] flex flex-col">
-        <div className="p-2">
+        <div className="w-full">
           <Navbar />
         </div>
-        <div className="flex flex-col w-2/3 p-4 pt-8 text-white">
+        <div className="flex flex-col w-2/3 p-4 pt-20 text-white">
           <p className="text-[35px] font-semibold leading-10 pt-[1px]">
             Entregamos felicidad y creamos
             <p className="font-imperial text-[70px] leading-8 text-yellow-100">

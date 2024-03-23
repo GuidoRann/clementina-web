@@ -59,6 +59,10 @@ export default function Landing() {
               serviceName="Albertito"
               text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit corrupti ipsa autem. Sapiente dignissimos"
             />
+            <ServiceCards
+              serviceName="Albertito"
+              text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit corrupti ipsa autem. Sapiente dignissimos"
+            />
           </div>
         </div>
       </section>

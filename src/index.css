@@ -2,11 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Lumanosimo&family=The+Nautigal:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
 
-@font-face {
-    font-family: 'Dafora';
-    src: url('/font/Dafora.otf' ) format('otf');
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

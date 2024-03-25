@@ -5,8 +5,8 @@ import Navbar from "./Navbar";
 
 export default function Landing() {
   return (
-    <main className="font-poppins bg-white">
-      <section className="bg-[url('/imagenes/servicios/foto2.jpg')] bg-center bg-cover h-[350px] flex flex-col">
+    <main className="font-poppins bg-[#FFF6E0]">
+      <section className="bg-[url('/imagenes/servicios/foto2.jpg')] bg-center bg-cover h-[350px] flex flex-col drop-shadow-xl">
         <Navbar />
         <div className="flex flex-col w-2/3 p-4 justify-center text-white h-full">
           <p className="text-[35px] font-semibold leading-10 pt-[1px]">
@@ -17,7 +17,7 @@ export default function Landing() {
           </p>
         </div>
       </section>
-      <section className="flex flex-col items-center " id="nosotros">
+      <section className="flex flex-col items-center" id="nosotros">
         <div className="flex flex-col justify-center items-center px-6 py-12">
           <h3 className="text-lg pb-5 font-bold">Sobre nosotros</h3>
           <p className="">
@@ -37,7 +37,7 @@ export default function Landing() {
           <CarouselCustomNavigation />
         </div>
       </section>
-      <section className="p-4 py-10" id="servicios">
+      <section className="p-4 py-10 " id="servicios">
         <div className="flex flex-col items-center">
           <h3 className="text-lg py-2 font-bold">Nuestros servicios</h3>
           <p className="">

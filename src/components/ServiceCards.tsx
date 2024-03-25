@@ -9,7 +9,7 @@ export default function ServiceCards({
 }: ServiceCardsProps) {
   return (
     <div className="pt-12 ">
-      <div className="relative flex w-80 flex-col rounded-xl bg-[#6A19A8] bg-clip-border text-white shadow-md">
+      <div className="relative flex w-80 flex-col rounded-xl bg-[#bb74f2] bg-clip-border text-white shadow-md">
         <div className="relative mx-4 -mt-6 h-48 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border shadow-lg shadow-blue-gray-500/40 bg-[url('/imagenes/servicios/foto1.jpg')] bg-center bg-cover"></div>
         <div className="px-6 pt-4">
           <h5 className="mb-2 block font-poppins text-xl font-semibold leading-snug tracking-normal antialiased">

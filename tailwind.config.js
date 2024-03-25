@@ -9,6 +9,7 @@ module.exports = withMT({
         poppins: ["Poppins"],
         dafora: ["Dafora"],
         imperial: ["Imperial Script"],
+        syne: ["Syne"],
       },
     },
   },

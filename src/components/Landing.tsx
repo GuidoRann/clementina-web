@@ -7,9 +7,11 @@ export default function Landing() {
   return (
     <main className="font-poppins bg-[#FFF6E0]">
       <section className="bg-[url('/imagenes/servicios/foto2.jpg')] bg-center bg-cover h-[350px] flex flex-col drop-shadow-xl">
-        <Navbar />
+        <div className="lg:hidden">
+          <Navbar />
+        </div>
         <div className="flex flex-col w-2/3 p-4 justify-center text-white h-full">
-          <p className="text-[35px] font-semibold leading-10 pt-[1px]">
+          <p className="text-[35px] font-semibold leading-10 pt-[1px] ">
             Entregamos felicidad y creamos
             <p className="font-imperial text-[70px] leading-8 text-yellow-100">
               recuerdos
@@ -19,7 +21,7 @@ export default function Landing() {
       </section>
       <section className="flex flex-col items-center" id="nosotros">
         <div className="flex flex-col justify-center items-center px-6 py-12">
-          <h3 className="text-lg pb-5 font-bold">Sobre nosotros</h3>
+          <h3 className="text-lg pb-5 font-bold font-syne">Sobre nosotros</h3>
           <p className="">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
             aut fugit nesciunt ut consectetur quo quae reprehenderit quos maxime
@@ -29,17 +31,19 @@ export default function Landing() {
           </p>
         </div>
       </section>
-      <section className="h-80 p-3 flex flex-col items-center">
-        <h3 className="pb-6 text-xl font-bold text-gray-800">
-          Algunos de nuestros trabajos
+      <section className="p-3 flex flex-col items-center">
+        <h3 className="pb-6 text-xl font-bold font-syne text-gray-800">
+          Galería de Momentos
         </h3>
-        <div>
+        <div className="w-full h-72 lg:h-[500px] lg:w-[900px]">
           <CarouselCustomNavigation />
         </div>
       </section>
       <section className="p-4 py-10 " id="servicios">
         <div className="flex flex-col items-center">
-          <h3 className="text-lg py-2 font-bold">Nuestros servicios</h3>
+          <h3 className="text-lg py-2 font-bold font-syne">
+            Nuestros servicios
+          </h3>
           <p className="">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
             corrupti ipsa autem. Sapiente dignissimos, perspiciatis totam ab

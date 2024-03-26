@@ -7,7 +7,7 @@ import Navbar from "./Navbar";
 export default function Landing() {
   return (
     <main className="font-poppins bg-[#FFF6E0] text-[#61677A]">
-      <section className="bg-[url('/imagenes/hero.jpg')] bg-center bg-cover h-[350px] flex flex-col drop-shadow-xl">
+      <section className="bg-[url('/images/hero.jpg')] bg-center bg-cover h-[350px] flex flex-col drop-shadow-xl">
         <div className="lg:hidden">
           <Navbar />
         </div>
@@ -27,22 +27,22 @@ export default function Landing() {
           </h3>
           <div className="lg:flex lg:gap-4">
             <ServiceCards
-              img="/imagenes/servicios/globos.jpg"
+              img="/images/servicios/globos.jpg"
               serviceName="Globos"
               text="Lorem ipsum dolor, sit amet consectetur adipisicing elit."
             />
             <ServiceCards
-              img="/imagenes/servicios/torta.jpg"
+              img="/images/servicios/torta.jpg"
               serviceName="Tortas"
               text="Lorem ipsum dolor, sit amet consectetur adipisicing elit."
             />
             <ServiceCards
-              img="/imagenes/servicios/deco.jpg"
+              img="/images/servicios/deco.jpg"
               serviceName="Decoración"
               text="Lorem ipsum dolor, sit amet consectetur adipisicing elit."
             />
             <ServiceCards
-              img="/imagenes/servicios/mesaDulce.jpg"
+              img="/images/servicios/mesaDulce.jpg"
               serviceName="Mesa dulce"
               text="Lorem ipsum dolor, sit amet consectetur adipisicing elit."
             />
@@ -50,7 +50,7 @@ export default function Landing() {
         </div>
       </section>
       <section
-        className="flex flex-col justify-center items-center p-12 bg-[url('/imagenes/presen.jpg')] bg-center bg-cover h-80"
+        className="flex flex-col justify-center items-center p-12 bg-[url('/images/presen.jpg')] bg-center bg-cover h-80"
         id="nosotros"
       >
         <div className="border-2 border-white rounded-2xl p-1">

@@ -27,18 +27,22 @@ export default function Landing() {
           </h3>
           <div className="lg:flex lg:gap-4">
             <ServiceCards
+              img="/imagenes/servicios/globos.jpg"
               serviceName="Globos"
               text="Lorem ipsum dolor, sit amet consectetur adipisicing elit."
             />
             <ServiceCards
+              img="/imagenes/servicios/torta.jpg"
               serviceName="Tortas"
               text="Lorem ipsum dolor, sit amet consectetur adipisicing elit."
             />
             <ServiceCards
+              img="/imagenes/servicios/deco.jpg"
               serviceName="Decoración"
               text="Lorem ipsum dolor, sit amet consectetur adipisicing elit."
             />
             <ServiceCards
+              img="/imagenes/servicios/mesaDulce.jpg"
               serviceName="Mesa dulce"
               text="Lorem ipsum dolor, sit amet consectetur adipisicing elit."
             />
@@ -46,7 +50,7 @@ export default function Landing() {
         </div>
       </section>
       <section
-        className="flex flex-col justify-center items-center p-12 bg-[url('/imagenes/pres3.jpg')] bg-center bg-cover h-80"
+        className="flex flex-col justify-center items-center p-12 bg-[url('/imagenes/presen.jpg')] bg-center bg-cover h-80"
         id="nosotros"
       >
         <div className="border-2 border-white rounded-2xl p-1">
@@ -58,7 +62,7 @@ export default function Landing() {
           </div>
         </div>
       </section>
-      <section className="px-6 py-14">
+      <section className="px-6 py-14" id="contacto">
         <div className="bg-[#FEEBBB] rounded-[70px] py-6 flex flex-col justify-between items-center">
           <h1 className="px-6 py-2 text-4xl text-center font-bold font-syne">
             ¡Organiza tu fiesta ya!
@@ -70,7 +74,7 @@ export default function Landing() {
           </button>
         </div>
       </section>
-      <section className="p-3 pb-12 flex flex-col items-center">
+      <section className="p-3 pb-12 flex flex-col items-center" id="momentos">
         <h3 className="pb-6 text-xl font-bold font-syne">
           Galería de Momentos
         </h3>

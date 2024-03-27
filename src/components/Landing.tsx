@@ -8,7 +8,7 @@ export default function Landing() {
   return (
     <main className="font-poppins bg-[#FFF6E0] text-[#61677A]">
       {/* ------------------------ Seccion principal ---------------------------- */}
-      <section className="bg-[url('/images/hero.jpg')] bg-center bg-cover h-[350px] lg:h-[700px] flex flex-col drop-shadow-xl">
+      <section className="bg-[url('/images/hero.jpg')] bg-center bg-cover h-[350px] lg:h-[850px] flex flex-col drop-shadow-xl">
         <div>
           <Navbar />
         </div>

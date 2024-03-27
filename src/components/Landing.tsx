@@ -72,7 +72,7 @@ export default function Landing() {
 
       {/* -------------------------- Carrousel Momentos ------------------------- */}
       <section
-        className="p-3 pb-12 lg:pt-24 lg flex flex-col items-center lg:h-[950px]"
+        className="p-3 py-10 lg:pt-24 lg flex flex-col items-center lg:h-[950px]"
         id="momentos"
       >
         <h3 className="pb-8 text-xl lg:text-5xl font-bold font-syne">

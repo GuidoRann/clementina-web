@@ -5,10 +5,10 @@ export default function Footer() {
   return (
     <div>
       <div className="bg-[#FEEBBB] lg:h-[230px] py-6 flex flex-col justify-between items-center">
-        <h1 className="px-6 py-2 text-4xl text-center  font-bold font-syne">
+        <h1 className="px-6 py-2 text-3xl lg:text-4xl text-center font-bold font-syne">
           ¡Organiza tu fiesta ya!
         </h1>
-        <p className="text-center pb-6 lg:pb-4 lg:text-lg">
+        <p className="text-center pb-6 lg:pb-4 text-base lg:text-lg">
           Empezá a planearlo hoy mismo
         </p>
         <div className="flex gap-4">

@@ -77,7 +77,7 @@ export default function Landing() {
             ¡Organiza tu fiesta ya!
           </h1>
           <p className="text-center pb-6 lg:pb-4 lg:text-lg">Empezá a planearlo hoy mismo</p>
-          <button className="flex flex-row justify-center items-center gap-2 p-3 bg-white text-[#128C7E] rounded-full font-semibold">
+          <button className="hover:scale-105 transition-all flex flex-row justify-center items-center gap-2 p-3 bg-white text-[#128C7E] rounded-full font-semibold">
             Whatsapp
             <IoLogoWhatsapp size={25} />
           </button>

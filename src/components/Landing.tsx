@@ -27,7 +27,7 @@ export default function Landing() {
         id="servicios"
       >
         <div className="flex flex-col items-center">
-          <h3 className="text-xl lg:text-4xl lg:pb-12 py-2 font-bold font-syne">
+          <h3 className="text-xl lg:text-5xl lg:pb-12 py-2 font-bold font-syne">
             Nuestros servicios
           </h3>
           <div className="lg:flex lg:gap-8">
@@ -56,7 +56,7 @@ export default function Landing() {
       </section>
       {/* ---------------------- Presentacion personal ------------------------- */}
       <section
-        className="flex flex-col lg:h-[900px] justify-center items-center p-12 bg-[url('/images/presen.jpg')] bg-center bg-cover h-80 lg:h-[700px]"
+        className="flex flex-col lg:h-[900px] justify-center items-center p-12 bg-[url('/images/presen.jpg')] bg-center bg-cover h-80"
         id="nosotros"
       >
         <div className="border-2 lg:border-[3px] border-white rounded-2xl p-1 lg:p-2">
@@ -93,7 +93,7 @@ export default function Landing() {
         className="p-3 pb-12 flex flex-col items-center lg:h-[900px]"
         id="momentos"
       >
-        <h3 className="pb-6 text-xl lg:text-4xl font-bold font-syne">
+        <h3 className="pb-8 text-xl lg:text-5xl font-bold font-syne">
           Galería de Momentos
         </h3>
         <div className="w-full h-72 lg:h-[700px] lg:w-[1200px]">

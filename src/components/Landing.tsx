@@ -1,5 +1,4 @@
 import { CarouselCustomNavigation } from "./Carousel";
-import { IoLogoWhatsapp } from "react-icons/io";
 import ServiceCards from "./ServiceCards";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
@@ -70,27 +69,10 @@ export default function Landing() {
           </div>
         </div>
       </section>
-      {/* -------------------------- Seccion Contacto ------------------------- */}
-      <section
-        className="px-6 py-14 lg:py-28 lg:px-[230px] lg:h-[900px] flex flex-col justify-center"
-        id="contacto"
-      >
-        <div className="bg-[#FEEBBB] rounded-[70px] lg:h-[230px] py-6 flex flex-col justify-between items-center">
-          <h1 className="px-6 py-2 text-4xl text-center font-bold font-syne">
-            ¡Organiza tu fiesta ya!
-          </h1>
-          <p className="text-center pb-6 lg:pb-4 lg:text-lg">
-            Empezá a planearlo hoy mismo
-          </p>
-          <button className="hover:scale-105 transition-all flex flex-row justify-center items-center gap-2 p-3 bg-white text-[#128C7E] rounded-full font-semibold">
-            Whatsapp
-            <IoLogoWhatsapp size={25} />
-          </button>
-        </div>
-      </section>
+
       {/* -------------------------- Carrousel Momentos ------------------------- */}
       <section
-        className="p-3 pb-12 flex flex-col items-center lg:h-[900px]"
+        className="p-3 pb-12 lg:pt-24 lg flex flex-col items-center lg:h-[950px]"
         id="momentos"
       >
         <h3 className="pb-8 text-xl lg:text-5xl font-bold font-syne">

@@ -12,7 +12,7 @@ export default function ServiceCards({
 }: ServiceCardsProps) {
   return (
     <div className="pt-12 text-[#61677A]">
-      <div className="relative flex w-80 lg:w-[340px] flex-col rounded-xl bg-[#FEEBBB] bg-clip-borde shadow-lg">
+      <div className="relative flex w-80 lg:w-[380px] lg:h-[400px] flex-col rounded-xl bg-[#FEEBBB] bg-clip-borde shadow-lg">
         <div
           className={`relative mx-4 -mt-6 h-48 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border shadow-lg shadow-blue-gray-500/40 
           bg-center bg-cover`}

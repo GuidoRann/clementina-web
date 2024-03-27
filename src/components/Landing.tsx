@@ -8,7 +8,7 @@ export default function Landing() {
   return (
     <main className="font-poppins bg-[#FFF6E0] text-[#61677A]">
       {/* ------------------------ Seccion principal ---------------------------- */}
-      <section className="bg-[url('/images/hero.jpg')] bg-center bg-cover h-[350px] lg:h-[850px] flex flex-col drop-shadow-xl">
+      <section className="bg-[url('/images/hero.jpg')] bg-center bg-cover h-[350px] lg:h-[900px] flex flex-col drop-shadow-xl">
         <div>
           <Navbar />
         </div>
@@ -23,7 +23,7 @@ export default function Landing() {
       </section>
       {/* --------------------- Presentacion sericios --------------------------- */}
       <section
-        className="p-4 py-10 lg:h-[700px] lg:flex lg:items-center lg:justify-center"
+        className="p-4 py-10 lg:h-[900px] lg:flex lg:items-center lg:justify-center"
         id="servicios"
       >
         <div className="flex flex-col items-center">
@@ -56,7 +56,7 @@ export default function Landing() {
       </section>
       {/* ---------------------- Presentacion personal ------------------------- */}
       <section
-        className="flex flex-col justify-center items-center p-12 bg-[url('/images/presen.jpg')] bg-center bg-cover h-80 lg:h-[700px]"
+        className="flex flex-col lg:h-[900px] justify-center items-center p-12 bg-[url('/images/presen.jpg')] bg-center bg-cover h-80 lg:h-[700px]"
         id="nosotros"
       >
         <div className="border-2 lg:border-[3px] border-white rounded-2xl p-1 lg:p-2">
@@ -71,12 +71,17 @@ export default function Landing() {
         </div>
       </section>
       {/* -------------------------- Seccion Contacto ------------------------- */}
-      <section className="px-6 py-14 lg:py-28 lg:px-[230px]" id="contacto">
+      <section
+        className="px-6 py-14 lg:py-28 lg:px-[230px] lg:h-[900px] flex flex-col justify-center"
+        id="contacto"
+      >
         <div className="bg-[#FEEBBB] rounded-[70px] lg:h-[230px] py-6 flex flex-col justify-between items-center">
           <h1 className="px-6 py-2 text-4xl text-center font-bold font-syne">
             ¡Organiza tu fiesta ya!
           </h1>
-          <p className="text-center pb-6 lg:pb-4 lg:text-lg">Empezá a planearlo hoy mismo</p>
+          <p className="text-center pb-6 lg:pb-4 lg:text-lg">
+            Empezá a planearlo hoy mismo
+          </p>
           <button className="hover:scale-105 transition-all flex flex-row justify-center items-center gap-2 p-3 bg-white text-[#128C7E] rounded-full font-semibold">
             Whatsapp
             <IoLogoWhatsapp size={25} />
@@ -84,7 +89,10 @@ export default function Landing() {
         </div>
       </section>
       {/* -------------------------- Carrousel Momentos ------------------------- */}
-      <section className="p-3 pb-12 flex flex-col items-center" id="momentos">
+      <section
+        className="p-3 pb-12 flex flex-col items-center lg:h-[900px]"
+        id="momentos"
+      >
         <h3 className="pb-6 text-xl lg:text-4xl font-bold font-syne">
           Galería de Momentos
         </h3>
